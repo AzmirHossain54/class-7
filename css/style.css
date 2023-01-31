@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: o;
+    outline: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: gold;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+nav ul li a{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: blueviolet;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .7s;
+}
+nav ul li a:hover{
+    background-color: darkgreen;
+    color: aqua;
+}
+nav ul li ul{
+    position: absolute;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
